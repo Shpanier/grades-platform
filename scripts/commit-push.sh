@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Commits what changed and pushes it, retrying when someone else pushed first:
 #
-#   scripts/commit-push.sh "chore: deploy grades-api 1.2.0 to staging [skip ci]" main
+#   scripts/commit-push.sh "chore: deploy grades-api 1.2.0 to staging" main
 set -euo pipefail
 
 message="${1:?usage: scripts/commit-push.sh <message> [branch]}"
